@@ -8,7 +8,7 @@ $linhas = mysqli_num_rows($sql);
 while ($dados = mysqli_fetch_assoc($sql)) {
 ?><table border="1" style="border-collapse: collapse">
     <tr>
-    <td><a href="excluir.php?id_aluno=<?php echo $dados["id_aluno"]; ?>">Excluir</a>&emsp;</td>
+    <td><a href="crud.php?id_aluno= <?php echo $dados["id_aluno"]."& procedimento="."excluir";?>">Excluir</a>&emsp;</td>
     <td><a href="formalterar.php?id_aluno=<?php echo $dados["id_aluno"]; ?>">Alterar</a>&emsp;</td>
 
     <?php echo "<td>".$dados["id_aluno"]."</td>" . "<td>".$dados["nome_aluno"]."</td>" . "<td>".$dados["curso_aluno"]."</td>"."</tr><br>";

@@ -9,10 +9,11 @@
     <body>
         <fieldset>
             <legend>Cadastro de Aluno</legend>
-            <form action="cadastro.php" method="get">
+            <form action="crud.php" method="get">
                 Nome: <input type="text" name="nome_aluno" required> </br></br>
                 Curso: <input type="text" name="curso_aluno" required></br></br>
                 <input type="submit" value="CADASTRAR" id="btnCadastrar">
+                <input type="text" name="procedimento" value="cadastrar" hidden="true">
             </form>
         </fieldset>
     </body>
