@@ -11,7 +11,7 @@ while ($dados = mysqli_fetch_assoc($sql)) {
     <td><a href="excluir.php?id_aluno=<?php echo $dados["id_aluno"]; ?>">Excluir</a>&emsp;</td>
     <td><a href="formalterar.php?id_aluno=<?php echo $dados["id_aluno"]; ?>">Alterar</a>&emsp;</td>
 
-    <?php echo "<td>".$dados["id_aluno"]."</td>" . "<td>".$dados["nome_aluno"]."</td>" . "<td>".$dados["curso_aluno"]."<td>"."</tr><br>";
+    <?php echo "<td>".$dados["id_aluno"]."</td>" . "<td>".$dados["nome_aluno"]."</td>" . "<td>".$dados["curso_aluno"]."</td>"."</tr><br>";
         }
         ?>
 </table>

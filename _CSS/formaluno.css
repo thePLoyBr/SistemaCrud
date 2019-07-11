@@ -1,0 +1,15 @@
+input{
+    background-color: aliceblue;
+    width: 250px;
+
+}
+
+fieldset{
+    width: 300px;
+}
+#btnCadastrar{
+    width: 300px;
+    background-color: lightsteelblue;
+    font-weight: bold;
+    color: darkblue;
+}
