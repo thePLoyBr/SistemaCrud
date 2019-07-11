@@ -1,3 +1,4 @@
+<META HTTP-EQUIV=Refresh CONTENT="0; URL=listar.php">
 <?php
 include 'conexao.php';
 $id_aluno = $_GET["id_aluno"];
